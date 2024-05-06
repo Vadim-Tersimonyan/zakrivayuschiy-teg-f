@@ -30,3 +30,19 @@
   --core-color: #000;
   --variant-font: #fff;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --bg-color: #000;
+  --accent-color: #00CC14;
+  --dark-theme-font-normal: 'wght' 465;
+  --dark-theme-font-bold: 'wght' 785;
+  --background-gradient: #000;
+  --background-gradient-light-start: #007f0c;
+  --background-gradient-light-end: #004306;
+  --text-shadow: #000;
+  --sparks-color: #FF0000;
+  --core-color: #00CC14;
+  --variant-font: #00CC14;
+}
+}

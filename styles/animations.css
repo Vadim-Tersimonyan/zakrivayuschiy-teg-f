@@ -43,16 +43,8 @@
 
 /* Active эффект для сердца */
 
-.like-icon .core {
-  transition: fill 0.3s 0.03s linear;
-}
-
 .like-icon:active .core {
   fill: var(--sparks-color);
-  transition: fill 0.3s linear;
-}
-
-.like-icon .main-body {
   transition: fill 0.3s linear;
 }
 
@@ -69,7 +61,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: scale 0.3s 0.1s ease-in backwards; 
+  animation: scale 0.3s 0.1s ease-in alternate; 
 }
 
 .like-icon.is-liked .main-body {
@@ -94,7 +86,7 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: sparks 0.3s 0.3s ease-in backwards;
+  animation: sparks 0.3s 0.3s ease-in alternate;
 }
 
 @keyframes sparks {
