@@ -109,7 +109,7 @@
   transition: width 0.3s;
 }
 
-.theme-menu__button:focus::after {
+.theme-menu__button:focus-visible::after {
   width: 100%;
 }
 
@@ -390,6 +390,10 @@
 
 .dismiss_button:hover::after {
   transform: translateX(0);
+}
+
+.dismiss_button:focus {
+  outline: none;
 }
 
 @media (width > 375px) {
