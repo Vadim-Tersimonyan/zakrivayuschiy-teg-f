@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --variable-font: 'Inter-Variable', sans-serif;
+  --accent-font: 'PressStart2P-Regular', monospace;
+  --dark-theme-font-bold: 'wght' 785;
+  --dark-theme-font-normal: 'wght' 465;
+  --bg-color: #fff;
+  --accent-color: #000;
+  --background-gradient: #d3d3d3;
+  --background-gradient-light-start: #e7e7e7;
+  --background-gradient-light-end: #1a1a1a;
+  --background-image: 
+  repeating-linear-gradient(var(--background-gradient), var(--background-gradient) 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to right, var(--background-gradient), var(--background-gradient) 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(var(--background-gradient-light-start) 0.01%, var(--background-gradient-light-end));
+  --text-shadow: #fff;
+  --sparks-color: #FF0000;
+  --core-color: #000;
+  --variant-font: #fff;
+  
+}
+
