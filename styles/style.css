@@ -249,7 +249,6 @@ button {
   min-width: 130px;
   position: relative;
   overflow: hidden;
-  transition: 0.3s ease;
   margin-inline-start: -2px;
 }
 
@@ -264,9 +263,10 @@ button {
   transition: 0.5s ease-in-out;
 }
 
-button:focus {
+.button-shadow:focus {
   outline: none;
   box-shadow: 2px 2px 0px 0px var(--accent-color);
+  transition: 0.3s ease;
 }
 
 .transform-area::after {
@@ -287,7 +287,6 @@ button:focus {
 
 .card__icon-button:focus {
   outline: none;
-  box-shadow: none;
 }
 
 .like-icon {
@@ -368,6 +367,25 @@ button:focus {
   margin-block-end: 30px;
 }
 
+.dismiss_button {
+  border: none;
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.dialog__confirm-word {
+  font-family: var(--accent-font);
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--variant-font);
+  mix-blend-mode: difference;
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+}
+
 .floppy-big {
   margin-block-end: 30px;
   fill: var(--accent-color);
@@ -383,10 +401,6 @@ button:focus {
   background-color: transparent;
   position: relative;
   overflow: hidden;
-}
-
-.dismiss_button:focus {
-  outline: none;
 }
 
 @media (width > 375px) {
