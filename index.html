@@ -340,7 +340,7 @@
         </svg>
         <span class="dialog__button-text">Сохранить на&nbsp;память</span>
       </button>
-      <dialog id="dialog" class="dialog-window">
+      <dialog open id="dialog" class="dialog-window">
         <div class="dialog-helper">
           <div class="flex-floppy">
             <svg class="floppy-big" width="39px" height="39px">
@@ -349,7 +349,7 @@
             <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
           </div>
           <button type="button" onclick="window['dialog'].close()" class="dismiss_button accept transform-area">
-            <span class="button__text">ок</span>
+            <span class="dialog-text">ок</span>
           </button> 
         </div>
       </dialog>

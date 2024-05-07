@@ -8,8 +8,8 @@
 :root.theme-dark {
   --bg-color: #000;
   --accent-color: #00CC14;
-  --dark-theme-font-normal: 'wght' 465;
-  --dark-theme-font-bold: 'wght' 785;
+  --title-font: 785;
+  --common-font: 465;
   --background-gradient: #000;
   --background-gradient-light-start: #007f0c;
   --background-gradient-light-end: #004306;
@@ -29,14 +29,16 @@
   --sparks-color: #FF0000;
   --core-color: #000;
   --variant-font: #fff;
+  --title-font: 700;
+  --common-font: 400;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
   --bg-color: #000;
   --accent-color: #00CC14;
-  --dark-theme-font-normal: 'wght' 465;
-  --dark-theme-font-bold: 'wght' 785;
+  --title-font: 785;
+  --common-font: 465;
   --background-gradient: #000;
   --background-gradient-light-start: #007f0c;
   --background-gradient-light-end: #004306;
