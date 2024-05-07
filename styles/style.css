@@ -296,7 +296,7 @@ button:focus {
 
 .card__icon-button:focus-visible .like-icon{
   outline: 2px solid var(--accent-color);
-  transition: 0.3s ease;
+  transition: outline 0.3s ease;
   outline-offset: -1px;
 }
 
